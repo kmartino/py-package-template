@@ -13,11 +13,7 @@ config = {
     'install_requires': ['nose'],
     'packages': ['packagetemplate'],
     'name': 'packagetemplate',
-    entry_points={
-        'console_scripts': [
-            'pt = packagetemplate.sample:main',
-        ]
-    },
+    'entry_points':{ 'console_scripts': ['pt = packagetemplate.sample:print_hello'] }
 }
 
 setup(**config)
