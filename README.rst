@@ -26,3 +26,18 @@ You can then use the package with an import statement::
 Or run it from a command line with the command::
 
     pt
+
+Helpful links
+=============
+
+http://learnpythonthehardway.org/book/ex46.html
+
+http://pytest.org/latest/goodpractises.html
+
+http://codeinthehole.com/writing/using-pip-and-requirementstxt-to-install-from-the-head-of-a-github-branch/
+
+http://docs.python.org/2/distutils/setupscript.html
+
+http://stackoverflow.com/questions/4830856/is-it-possible-to-use-pip-to-install-a-package-from-a-private-github-repository
+
+http://guide.python-distribute.org/pip.html#installing-from-a-vcs
