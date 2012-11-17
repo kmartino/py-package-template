@@ -9,11 +9,11 @@ Installation
 
 To install manually checkout and run::
 
-    python setup.py install
+    $ python setup.py install
 
 To install with pip::
 
-    pip install git+git://github.com/kmartino/py-package-template.git#egg=packagetemplate
+    $ pip install git+git://github.com/kmartino/py-package-template.git#egg=packagetemplate
 
 
 Usage
@@ -21,11 +21,13 @@ Usage
 
 You can then use the package with an import statement::
 
-    import packagetemplate
+    from packagetemplate import sample
+
+    sample.print_hello()
 
 Or run it from a command line with the command::
 
-    pt
+    $ pt
 
 Helpful links
 =============
